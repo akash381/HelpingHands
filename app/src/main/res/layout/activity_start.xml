@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:src="@mipmap/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:gravity="bottom"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:id="@+id/login_button"
+            android:background="@drawable/my_button"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/nav_header_vertical_small_spacing"
+            android:layout_height="wrap_content"
+            android:onClick="goToLoginActivity"
+            android:text="Login"
+            android:textColor="@color/colorText"
+            />
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:background="@drawable/my_button"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/nav_header_vertical_small_spacing"
+            android:layout_height="wrap_content"
+            android:onClick="goToSignUpActivity"
+            android:text="SignUp"
+            android:textColor="@color/colorText"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
