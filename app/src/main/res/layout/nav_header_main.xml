@@ -25,31 +25,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/nav_header_title"
+        android:text="@string/nav_header_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_small_spacing"
-        android:text="@string/nav_header_subtitle1" />
+        android:text="@string/nav_header_phone" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_small_spacing"
-        android:text="@string/nav_header_subtitle2" />
+        android:paddingBottom="@dimen/nav_header_vertical_small_spacing"
+        android:text="@string/nav_header_email" />
 
     <Button
         android:id="@+id/edit_btn"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:layout_height="17dp"
+        android:background="@drawable/my_button"
         android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="3dp"
         android:onClick="goToAccountsActivity"
-        android:paddingTop="@dimen/nav_header_vertical_small_spacing"
         android:text="Edit Profile" />
 
 

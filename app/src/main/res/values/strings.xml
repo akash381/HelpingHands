@@ -2,9 +2,9 @@
     <string name="app_name">FindAMaid</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Akash Kumar</string>
-    <string name="nav_header_subtitle1">+91 9113729176</string>
-    <string name="nav_header_subtitle2">kumar.akash381@gmail.com</string>
+    <string name="nav_header_name">Akash Kumar</string>
+    <string name="nav_header_phone">+91 9113729176</string>
+    <string name="nav_header_email">kumar.akash381@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_start">StartActivity</string>
